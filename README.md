@@ -15,7 +15,7 @@ Create standalone **1.15x, 1.25x, or custom speed** copies of any custom Beat Sa
    termux-setup-storage
    pkg update -y && pkg install -y python ffmpeg
    pip install --upgrade pip setuptools wheel
-2. Download speedup.py into /sdcard/Download and run:bash
+2. Download speedup.py into /sdcard/Download and run: bash
 python /sdcard/Download/speedup.py
 
 3. Search for a song name, pick its number, and enter a speed multiplier (e.g. 1.25 for faster or 0.85 for slower). The new map appears automatically in your Custom Levels tab!
